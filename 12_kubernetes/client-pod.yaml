@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: nsterdt94/multi-client
+      image: nsterdt94/multi-worker
       ports:
         - containerPort: 3000
